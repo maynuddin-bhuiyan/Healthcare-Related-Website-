@@ -1,0 +1,11 @@
+.Doctors-Full{
+    background: rgb(56, 55, 55);
+    padding: 100px;
+}
+
+.Doctors{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+}

@@ -1,0 +1,14 @@
+.red{
+    color: brown;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 50px;
+    margin-left: 100px;
+
+}
+
+.notfound img {
+    width: 900px;
+    margin-left: 300px;
+    padding: 50px;
+}

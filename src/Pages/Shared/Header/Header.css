@@ -1,0 +1,32 @@
+/* header Part */
+
+.Header-part{
+    background: #1a1e23;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 20px;
+}
+
+
+.Header-part img{
+    padding: 20px;
+}
+
+
+.Header-part ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin:  0;
+    
+}
+
+
+
+.me-auto {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: #e0e0e0;
+    font-weight: 600;
+}

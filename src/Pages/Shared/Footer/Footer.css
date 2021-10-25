@@ -1,0 +1,18 @@
+/* Footer Part */
+
+#Footer{
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 10px 5px 5px rgb(53, 50, 50);
+    margin-bottom: 10px;
+    background: rgb(65, 64, 63);
+    overflow: hidden;
+
+}
+
+#Footer p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    
+}
