@@ -30,3 +30,16 @@ Button{
     margin-top: 20px;
 }
 
+
+.Appointment-image{
+    position: relative;
+}
+
+
+.Appointment-image img {
+    width: 600px;
+    position: absolute;
+    top: -120px;
+    left: 30px;
+}
+

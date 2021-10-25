@@ -16,8 +16,8 @@ const Banner = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Doctor as a noun</h3>
+      <p>hroughout much of the academic world, the term Doctor refers </p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -28,8 +28,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Usage by medical practitioners</h3>
+      <p>In the United Kingdom, India, Hong Kong, South Africa, Australia, New Zealand, Ghana</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -40,8 +40,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Abbreviation</h3>
+      <p>Doctor is abbreviated "Dr" in British English and "Dr." in North American English.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

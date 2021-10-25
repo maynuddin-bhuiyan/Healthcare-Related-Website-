@@ -1,9 +1,12 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/uesAuth';
 import './Service.css';
 
 const Service = (props) => {
+  const {user, logOut} = useAuth();
+
     console.log(props.service)
 
     const {id,name,title,img} = props.service;
@@ -17,9 +20,17 @@ const Service = (props) => {
     <Card.Text>
       {title}
     </Card.Text>
-    <Link to={`/service/${id}`}>
-    <Button variant="primary">Go Login</Button>
+
+
+
+    <Link to={`/service/${id}`}> 
+    
+
+
+    <Button variant="primary">Login</Button>
+
     </Link>
+   
     
   </Card.Body>
 </Card>
