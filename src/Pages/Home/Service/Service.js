@@ -1,15 +1,25 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useAuth from '../../../hooks/uesAuth';
+
+
+
 import './Service.css';
 
 const Service = (props) => {
-  const {user, logOut} = useAuth();
+  
 
-    console.log(props.service)
+    console.log(props.servis)
 
-    const {id,name,title,img} = props.service;
+    const {id,name,title,img} = props.servis;
+
+  
+   
+
+
+
+  
+
 
     return (
         <div className='Full-Service'>
@@ -22,14 +32,12 @@ const Service = (props) => {
     </Card.Text>
 
 
+<Link to={`/detailsItam/${id}`} >
+<Button> Details</Button>
+</Link>
 
-    <Link to={`/service/${id}`}> 
     
 
-
-    <Button variant="primary">Login</Button>
-
-    </Link>
    
     
   </Card.Body>

@@ -6,9 +6,16 @@ import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import Home from './Pages/Home/Home/Home';
-import Doctors from './Pages/Department/Doctors/Doctors';
+
 import Login from './Pages/Login/Login/Login';
 import Authprovider from './contexs/Authprovider';
+import Registration from './Pages/Login/Registration/Registration';
+import ProvideRouter from './Pages/Login/ProvideRout/ProvideRouter';
+
+import Doctor from './Pages/Department/Doctor/Doctor';
+import DetailsItam from './Pages/DetailsItam/DetailsItam';
+
+
 
 
 
@@ -23,16 +30,32 @@ function App() {
   <Route path='/home'>
     <Home></Home>
   </Route>
-  <Route path='/Department'>
-    <Doctors></Doctors>
+ 
+
+  <Route path='/login'>
+  <Login></Login>
     </Route>
-<Route path='/service/:serviceId'>
-<Login></Login>
+
+
+    <Route path='/department'>
+    <Doctor></Doctor>
+    </Route>
+
+
+<ProvideRouter path='/detailsItam/:servisId'>
+<DetailsItam></DetailsItam>
+</ProvideRouter>
+
+<Route path='/registration'>
+<Registration></Registration>
 </Route>
+
+
 
 <Route exact path="*">
   <NotFound></NotFound>
 </Route>
+
 </Switch>
 <Footer></Footer>
 </Router>

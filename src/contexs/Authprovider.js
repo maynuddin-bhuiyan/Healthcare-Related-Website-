@@ -3,11 +3,11 @@ import useFirebase from '.././hooks/useFirebase';
 
 
 
-export const Authcontexs = createContext();
+export const Authcontexs = createContext(null);
 
 const Authprovider = ({ children }) => {
 
-    const allcontext = useFirebase;
+    const allcontext = useFirebase();
     
     return (
         <Authcontexs.Provider value={allcontext}>

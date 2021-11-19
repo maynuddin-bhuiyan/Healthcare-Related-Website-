@@ -1,12 +1,11 @@
-console.log(process.env);
-
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  };
+  apiKey: "AIzaSyDryH4TyJJOV7OSnsFkhCZr6hZbMsS9irU",
+  authDomain: "healthcare-related-websi-76b67.firebaseapp.com",
+  projectId: "healthcare-related-websi-76b67",
+  storageBucket: "healthcare-related-websi-76b67.appspot.com",
+  messagingSenderId: "490410224548",
+  appId: "1:490410224548:web:e5300904ac936c0f2def31"
+};
+
 
   export default firebaseConfig;

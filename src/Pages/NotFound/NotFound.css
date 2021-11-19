@@ -1,4 +1,4 @@
-.red{
+.Found{
     color: brown;
     font-size: 30px;
     font-weight: 600;
@@ -7,8 +7,9 @@
 
 }
 
-.notfound img {
-    width: 900px;
+.NotFound img {
+    width: 1300px;
+    height: 500px;
     margin-left: 300px;
     padding: 50px;
 }
